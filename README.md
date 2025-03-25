@@ -8,3 +8,8 @@ Firefox Default:
 ![image](https://github.com/user-attachments/assets/56d0830c-7c93-4dc2-80df-9d292790b75b)
 ![image](https://github.com/user-attachments/assets/f9a6e793-a0e3-4ecd-95d5-7c0bbe6410c3)
 
+Monokai Pro:
+![image](https://github.com/user-attachments/assets/69bf7df7-b898-4bf3-b0cd-744fd3ea008e)
+![image](https://github.com/user-attachments/assets/c2f04fb2-5ab5-4080-af14-8b710ee86bb4)
+![image](https://github.com/user-attachments/assets/95bb4f2a-22b6-45f5-8363-925578b49654)
+

@@ -13,3 +13,7 @@ Monokai Pro:
 ![image](https://github.com/user-attachments/assets/c2f04fb2-5ab5-4080-af14-8b710ee86bb4)
 ![image](https://github.com/user-attachments/assets/95bb4f2a-22b6-45f5-8363-925578b49654)
 
+Brave Default Dark:
+![image](https://github.com/user-attachments/assets/6c5e9d27-41a6-4fa7-a632-e65818ceaae3)
+![image](https://github.com/user-attachments/assets/c481bd4b-43f4-42dd-9539-f66955d90714)
+

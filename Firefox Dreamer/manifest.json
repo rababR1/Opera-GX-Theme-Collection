@@ -75,14 +75,14 @@
         },
         "light": {
           "gx_accent": {
-            "h": 278,
-            "s": 31,
-            "l": 95
-          },
-          "gx_secondary_base": {
             "h": 267,
             "s": 39,
             "l": 35
+          },
+          "gx_secondary_base": {
+            "h": 278,
+            "s": 31,
+            "l": 95
           }
         }
       },

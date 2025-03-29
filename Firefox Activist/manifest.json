@@ -1,6 +1,6 @@
 {
   "name": "Firefox Dreamer",
-  "description": "You believe that fortune favors the bold and inspire others to be brave.",
+  "description": "You leave the world a better place than you found it and lead others to believe.",
   "developer": {
     "name": "TG101"
   },
@@ -75,14 +75,14 @@
         },
         "light": {
           "gx_accent": {
-            "h": 267,
-            "s": 39,
-            "l": 35
+            "h": 220,
+            "s": 49,
+            "l": 48
           },
           "gx_secondary_base": {
-            "h": 265,
-            "s": 34,
-            "l": 47
+            "h": 228,
+            "s": 100,
+            "l": 99
 
           }
         }

@@ -1,6 +1,6 @@
 {
   "name": "Synthwave '84",
-  "description": "Based on the popular VS Code theme created by Robert Owen",
+  "description": "Based on the popular VS Code theme created by Robb Owen",
   "developer": {
     "name": "TG101"
   },
@@ -75,14 +75,14 @@
         },
         "light": {
           "gx_accent": {
-            "h": 81,
-            "s": 37,
+            "h": 341,
+            "s": 90,
             "l": 52
           },
           "gx_secondary_base": {
-            "h": 44,
-            "s": 87,
-            "l": 94
+            "h": 0,
+            "s": 0,
+            "l": 98
           }
         }
       },

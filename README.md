@@ -12,6 +12,7 @@ A collection of themes for Opera GX. More to be added soon!
 ![image](https://github.com/user-attachments/assets/f9a6e793-a0e3-4ecd-95d5-7c0bbe6410c3)
 
 ## Monokai Pro:
+
 ![image](https://github.com/user-attachments/assets/69bf7df7-b898-4bf3-b0cd-744fd3ea008e)
 ![image](https://github.com/user-attachments/assets/c2f04fb2-5ab5-4080-af14-8b710ee86bb4)
 ![image](https://github.com/user-attachments/assets/95bb4f2a-22b6-45f5-8363-925578b49654)
@@ -21,3 +22,9 @@ Brave Default Dark:
 ![image](https://github.com/user-attachments/assets/c481bd4b-43f4-42dd-9539-f66955d90714)
 
 ## Eva Dark:
+
+![1744421894151](image/README/1744421894151.png)
+
+![1744421936330](image/README/1744421936330.png)
+
+## Noctis:

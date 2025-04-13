@@ -65,12 +65,12 @@
           "gx_accent": {
             "h": 0,
             "s": 0,
-            "l": 30
+            "l": 35
           },
           "gx_secondary_base": {
             "h": 0,
             "s": 0,
-            "l": 0
+            "l": 4
           }
         },
         "light": {

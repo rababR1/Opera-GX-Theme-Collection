@@ -89,13 +89,13 @@
       "wallpaper": {
         "dark": {
           "image": "wallpaper/dark.png",
-          "text_color": "#FFFFFF",
-          "text_shadow": "#757575"
+          "text_color": "#b0b7c3",
+          "text_shadow": "#676e95"
         },
         "light": {
           "image": "wallpaper/light.png",
-          "text_color": "#000000",
-          "text_shadow": "#0B000E"
+          "text_color": "#5d5d5f",
+          "text_shadow": "#aaadb4"
         }
       }
     },

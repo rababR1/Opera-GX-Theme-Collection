@@ -90,7 +90,7 @@
         "dark": {
           "image": "wallpaper/dark.png",
           "text_color": "#FFFFFF",
-          "text_shadow": "#757575"
+          "text_shadow": "#666666"
         },
         "light": {
           "image": "wallpaper/light.png",

@@ -2,6 +2,12 @@
 
 A collection of themes for Opera GX. More to be added soon!
 
+## How to download
+
+Either in the GX.store or using developer mode in Opera GX.
+
+https://store.gx.me/studios/8807d06c-b007-4043-b1af-ce9cc75c1390/
+
 # Available Themes:
 
 ## Firefox Default:

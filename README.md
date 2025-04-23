@@ -2,6 +2,12 @@
 
 A collection of themes for Opera GX. More to be added soon!
 
+## How to download
+
+Either in the GX.store or using developer mode in Opera GX.
+
+https://store.gx.me/studios/8807d06c-b007-4043-b1af-ce9cc75c1390/
+
 # Available Themes:
 
 ## Firefox Default:
@@ -22,11 +28,6 @@ Brave Default Dark:
 ![image](https://github.com/user-attachments/assets/c481bd4b-43f4-42dd-9539-f66955d90714)
 
 ## Eva Dark:
-
-
-Download in the GX.Store:
-
-https://store.gx.me/mods/18eamn/logitech-g/
 
 ![1744421894151](image/README/1744421894151.png)
 

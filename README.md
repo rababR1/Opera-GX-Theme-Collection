@@ -23,6 +23,11 @@ Brave Default Dark:
 
 ## Eva Dark:
 
+
+Download in the GX.Store:
+
+https://store.gx.me/mods/18eamn/logitech-g/
+
 ![1744421894151](image/README/1744421894151.png)
 
 ![1744421936330](image/README/1744421936330.png)

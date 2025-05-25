@@ -1,0 +1,39 @@
+/* ─── GX Vars ───────────────────────────────────────────────────────────── */
+:root {
+  --gx-bg:        env(opera-gx-background-color);
+  --gx-bg-light:  env(opera-gx-background-color-light);
+  --gx-text:      env(opera-gx-text-color);
+  --gx-accent:    env(opera-gx-accent-color);
+}
+
+/* ─── Page background & base text ───────────────────────────────────────── */
+html,
+body,
+#AppRouter-root,
+.ListingLayout-outerContainer {
+  background-color: var(--gx-bg)  !important;
+  color:            var(--gx-text) !important;
+}
+
+/* ─── Top nav & header ─────────────────────────────────────────────────── */
+header,
+nav.h-header-large,
+._3-miAEojrCvx_4FQ8x3P-s { /* Reddit’s nav wrapper */
+  background-color: var(--gx-bg-light) !important;
+  border-bottom:    1px solid var(--gx-bg) !important;
+}
+
+/* ─── Posts & comments ─────────────────────────────────────────────────── */
+div[data-testid="post-container"],
+div[data-testid="comment"],
+article {
+  background-color: var(--gx-bg-light) !important;
+  border:           1px solid var(--gx-bg)      !important;
+}
+
+/* ─── Links & buttons ───────────────────────────────────────────────────── */
+a,
+button,
+[role="button"] {
+  color: var(--gx-accent) !important;
+}

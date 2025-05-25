@@ -1,0 +1,164 @@
+/* Page background & text */
+html {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+}
+
+/* Search box */
+input[name="q"],
+textarea[name="q"],
+.gLFyf {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+}
+
+/* Search buttons */
+input[name="btnK"],
+input[name="btnI"] {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+}
+
+/* Icons */
+svg path {
+  fill: env(-opera-gx-accent-color) !important;
+}
+
+/* Autocomplete & suggestion wrappers */
+.SDkEP,
+.vcVZ7d {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+}
+
+/* Suggestion items & result snippets */
+.o3j99.n1xJcf.Ne6nSd,
+.o3j99.LLD4me.yr19Zb.LS8OJ,
+.o3j99.ikrT4e.om7nvf,
+.o3j99.qarstb {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+}
+
+/* Other info blocks */
+.uU7dJd,
+.uU7dJb,
+.KxwPGc.SSwjIe {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+}
+/* ─── Autocomplete dropdown ─── */
+/* container */
+.aajZCb,
+.aajZCb .erkvQe,
+.aajZCb .G43f7e {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+}
+
+/* each suggestion row */
+.aajZCb .sbct {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+}
+.aajZCb .sbct .wM6W7d,
+.aajZCb .sbct .lnnVSe,
+.aajZCb .sbct .ClJ9Yb {
+  color: env(-opera-gx-accent-color) !important;
+}
+
+/* hover/focus on suggestion */
+.aajZCb .sbct.sbhl {
+  background-color: env(-opera-gx-accent-color) !important;
+  color:            env(-opera-gx-background-color) !important;
+}
+
+/* “See more” pill at bottom */
+.aajZCb .ZFiwCf {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+}
+
+/* delete‑history “Delete” link */
+.aajZCb .AQZ9Vd .JCHpcb {
+  color: env(-opera-gx-accent-color) !important;
+}
+/* ─── Search‐box container ─── */
+.SDkEP {
+  /* your dark BG */
+  background-color: env(-opera-gx-background-color) !important;
+  /* 1px accent border and pill shape */
+  border: 1px solid env(-opera-gx-accent-color) !important;
+  border-radius: 24px !important;
+  padding: 4px 8px !important;
+}
+
+/* strip out Google's inner underline on the <textarea> */
+.SDkEP textarea,
+.SDkEP input[name="q"] {
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+}
+
+/* ─── Buttons ─── */
+input[name="btnK"],
+input[name="btnI"] {
+  background-color: env(-opera-gx-background-color) !important;
+  color:            env(-opera-gx-accent-color)     !important;
+  border: 1px solid env(-opera-gx-accent-color) !important;
+  border-radius: 4px !important;
+  padding: 0 16px !important;
+  margin: 0 4px !important;
+}
+
+/* ─── Autocomplete dropdown ─── */
+/* wrap the suggestions in the same accent border */
+.aajZCb .erkvQe {
+  background-color: env(-opera-gx-background-color) !important;
+  border: 1px solid env(-opera-gx-accent-color) !important;
+  border-top: none !important;           /* only bottom+ sides */
+  border-radius: 0 0 8px 8px !important; /* rounded bottom corners */
+}
+
+/* each suggestion row already has dark BG—just tweak the hover */
+.aajZCb .sbct.sbhl {
+  background-color: env(-opera-gx-accent-color) !important;
+  color:            env(-opera-gx-background-color) !important;
+}
+/* ─── 1) Wrap the entire search bar in one accent‑bordered pill ─── */
+.RNNXgb {
+  background-color: env(-opera-gx-background-color) !important;
+  border:           1px solid env(-opera-gx-accent-color) !important;
+  border-radius:    24px !important;
+  padding:          4px 8px !important;
+}
+
+/* remove Google’s inner underline & margin */
+.RNNXgb .SDkEP {
+  border:     none      !important;
+  box-shadow: none      !important;
+  margin:     0         !important;
+}
+
+/* make sure input/textarea sits flush */
+.RNNXgb input[name="q"],
+.RNNXgb textarea[name="q"] {
+  background: transparent !important;
+  outline:    none        !important;
+}
+
+/* ─── 2) Re‑border the autocomplete dropdown to match ─── */
+.aajZCb .erkvQe {
+  background-color: env(-opera-gx-background-color) !important;
+  border:           1px solid env(-opera-gx-accent-color) !important;
+  border-top:       none    !important;    /* so it “snaps” to the bottom of the bar */
+  border-radius:    0 0 24px 24px !important;
+  margin-top:       -1px     !important;    /* hides that 1px gap */
+}
+
+/* clip the suggestion list so its corners stay rounded */
+.aajZCb .G43f7e {
+  overflow: hidden !important;
+  border-radius: 0 0 23px 23px !important;
+}

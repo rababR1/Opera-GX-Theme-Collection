@@ -1,6 +1,6 @@
 {
   "name": "Kanagawa",
-  "description": "Ports the popular VS Code theme, Kanagawa, to Opera GX.",
+  "description": "Ports the popular nVim and VS Code theme, Kanagawa, to Opera GX.",
   "developer": {
     "name": "TG101"
   },
@@ -75,31 +75,33 @@
         },
         "light": {
           "gx_accent": {
-            "h": 199,
+            "h": 200,
             "s": 19,
-            "l": 49
+            "l": 44
           },
           "gx_secondary_base": {
-            "h": 40,
-            "s": 10,
-            "l": 94
+            "h": 53,
+            "s": 67,
+            "l": 84
           }
         }
       },
       "wallpaper": {
         "dark": {
-          "image": "wallpaper/dark.png",
+          "image": "wallpaper/video.webm",
+          "first_frame": "wallpaper/first_frame.jpg",
           "text_color": "#dcd7ba",
           "text_shadow": "#2a2a37"
         },
         "light": {
-          "image": "wallpaper/light.png",
-          "text_color": "#1f1f28",
-          "text_shadow": "#1f1f28"
+          "image": "wallpaper/video.webm",
+          "first_frame": "wallpaper/first_frame.jpg",
+          "text_color": "#545464",
+          "text_shadow": "#545464"
         }
       }
     },
     "schema_version": 1
   },
-  "version": "1.0"
+  "version": "1.0.3"
 }

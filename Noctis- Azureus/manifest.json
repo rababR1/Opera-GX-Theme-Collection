@@ -1,5 +1,5 @@
 {
-  "name": "Noctis",
+  "name": "Noctis- Azureus",
   "description": "Inspired by the Noctis VS Code theme, now available for Opera GX.",
   "developer": {
     "name": "TG101"
@@ -63,9 +63,9 @@
       "theme": {
         "dark": {
           "gx_accent": {
-            "h": 187,
+            "h": 203,
             "s": 78,
-            "l": 58
+            "l": 60
           },
           "gx_secondary_base": {
             "h": 203,
@@ -75,27 +75,27 @@
         },
         "light": {
           "gx_accent": {
-            "h": 40,
-            "s": 90,
-            "l": 96
-          },
-          "gx_secondary_base": {
             "h": 187,
             "s": 100,
             "l": 34
+          },
+          "gx_secondary_base": {
+            "h": 40,
+            "s": 90,
+            "l": 96
           }
         }
       },
       "wallpaper": {
         "dark": {
           "image": "wallpaper/dark.png",
-          "text_color": "#FFFFFF",
-          "text_shadow": "#757575"
+          "text_color": "#becfda",
+          "text_shadow": "#475e6c"
         },
         "light": {
           "image": "wallpaper/light.png",
-          "text_color": "#000000",
-          "text_shadow": "#0B000E"
+          "text_color": "#005661",
+          "text_shadow": "#004d57"
         }
       }
     },

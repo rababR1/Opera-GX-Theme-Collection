@@ -75,14 +75,14 @@
         },
         "light": {
           "gx_accent": {
-            "h": 187,
-            "s": 75,
-            "l": 66
+            "h": 106,
+            "s": 51,
+            "l": 59
           },
           "gx_secondary_base": {
-            "h": 0,
-            "s": 0,
-            "l": 96
+            "h": 220,
+            "s": 23,
+            "l": 97
           }
         }
       },
@@ -95,7 +95,7 @@
         "light": {
           "image": "wallpaper/light.png",
           "text_color": "#5B6168",
-          "text_shadow": "#0B000E"
+          "text_shadow": "#292D31"
         }
       }
     },

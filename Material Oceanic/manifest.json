@@ -73,33 +73,33 @@
             "l": 18
           }
         },
-        "light": {
+         "light": {
           "gx_accent": {
             "h": 187,
-            "s": 75,
-            "l": 66
+            "s": 100,
+            "l": 42
           },
           "gx_secondary_base": {
             "h": 0,
             "s": 0,
-            "l": 96
+            "l": 98
           }
         }
       },
       "wallpaper": {
         "dark": {
           "image": "wallpaper/dark.png",
-          "text_color": "#FFFFFF",
-          "text_shadow": "#757575"
+          "text_color": "#B0BEC5",
+          "text_shadow": "#607D8B"
         },
         "light": {
           "image": "wallpaper/light.png",
-          "text_color": "#000000",
-          "text_shadow": "#0B000E"
+          "text_color": "#546E7A",
+          "text_shadow": "#94A7B0"
         }
       }
     },
     "schema_version": 1
   },
-  "version": "1.0"
+  "version": "1.1"
 }

@@ -63,39 +63,39 @@
       "theme": {
         "dark": {
           "gx_accent": {
-            "h": 36,
-            "s": 100,
-            "l": 50
-          },
-          "gx_secondary_base": {
-            "h": 0,
-            "s": 0,
-            "l": 13
-          }
-        },
-         "light": {
-          "gx_accent": {
             "h": 187,
             "s": 100,
             "l": 42
           },
           "gx_secondary_base": {
             "h": 0,
-            "s": 0,
-            "l": 98
+            "s": 100,
+            "l": 11
+          }
+        },
+         "light": {
+          "gx_accent": {
+            "h": 196,
+            "s": 84,
+            "l": 63
+          },
+          "gx_secondary_base": {
+            "h": 37,
+            "s": 100,
+            "l": 96
           }
         }
       },
       "wallpaper": {
         "dark": {
           "image": "wallpaper/dark.png",
-          "text_color": "#B0BEC5",
-          "text_shadow": "#727272"
+          "text_color": "#ffeaea",
+          "text_shadow": "#ffd0aa"
         },
         "light": {
           "image": "wallpaper/light.png",
           "text_color": "#546E7A",
-          "text_shadow": "#94A7B0"
+          "text_shadow": "#888477"
         }
       }
     },

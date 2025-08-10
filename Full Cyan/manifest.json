@@ -1,0 +1,55 @@
+{
+  "name": "Full Cyan",
+  "description": "A full cyan theme",
+  "developer": {
+    "name": "TG101"
+  },
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 180,
+            "s": 100,
+            "l": 50
+          },
+          "gx_secondary_base": {
+            "h": 180,
+            "s": 100,
+            "l": 50
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 106,
+            "s": 51,
+            "l": 59
+          },
+          "gx_secondary_base": {
+            "h": 220,
+            "s": 23,
+            "l": 97
+          }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "text_color": "#FFFFFF",
+          "text_shadow": "#757575"
+        },
+        "light": {
+          "image": "wallpaper/light.png",
+          "text_color": "#5B6168",
+          "text_shadow": "#292D31"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.0"
+}

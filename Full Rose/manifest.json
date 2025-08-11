@@ -1,0 +1,54 @@
+{
+  "name": "Full Rose",
+  "description": "A full rose theme",
+  "developer": {
+    "name": "TG101"
+  },
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 2,
+            "s": 78,
+            "l": 73
+          },
+          "gx_secondary_base": {
+            "h": 2,
+            "s": 78,
+            "l": 73
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 2,
+            "s": 78,
+            "l": 73
+          },
+          "gx_secondary_base": {
+            "h": 2,
+            "s": 78,
+            "l": 29
+          }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "text_color": "#FFFFFF",
+          "text_shadow": "#757575"
+        },
+        "light": {
+          "text_color": "#000000",
+          "text_shadow": "#0B000E"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.0"
+}

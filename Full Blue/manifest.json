@@ -1,0 +1,54 @@
+{
+  "name": "Full Blue",
+  "description": "A full blue theme",
+  "developer": {
+    "name": "TG101"
+  },
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 59,
+            "s": 100,
+            "l": 78
+          },
+          "gx_secondary_base": {
+            "h": 59,
+            "s": 100,
+            "l": 78
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 59,
+            "s": 100,
+            "l": 78
+          },
+          "gx_secondary_base": {
+            "h": 59,
+            "s": 100,
+            "l": 31
+          }
+        }
+      },
+      "wallpaper": {
+        "dark": {
+          "text_color": "#FFFFFF",
+          "text_shadow": "#757575"
+        },
+        "light": {
+          "text_color": "#000000",
+          "text_shadow": "#0B000E"
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.0"
+}

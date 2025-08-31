@@ -19,9 +19,9 @@
             "l": 48
           },
           "gx_secondary_base": {
-            "h": 59,
+            "h": 231,
             "s": 100,
-            "l": 78
+            "l": 16
           }
         },
         "light": {
@@ -40,5 +40,5 @@
     },
     "schema_version": 1
   },
-  "version": "1.0"
+  "version": "1.0.1"
 }

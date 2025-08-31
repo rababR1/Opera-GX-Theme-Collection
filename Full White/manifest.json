@@ -36,16 +36,6 @@
             "l": 80
           }
         }
-      },
-      "wallpaper": {
-        "dark": {
-          "text_color": "#FFFFFF",
-          "text_shadow": "#757575"
-        },
-        "light": {
-          "text_color": "#000000",
-          "text_shadow": "#0B000E"
-        }
       }
     },
     "schema_version": 1

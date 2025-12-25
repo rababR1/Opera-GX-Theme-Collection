@@ -1,0 +1,44 @@
+{
+  "name": "Ayu Dark",
+  "description": "A theme based on the popular VS Code color scheme created by 'teabyii'.",
+  "developer": {
+    "name": "TG101"
+  },
+  "icons": {
+    "512": "icon_512.png"
+  },
+  "manifest_version": 3,
+  "mod": {
+    "license": "license.txt",
+    "payload": {
+      "theme": {
+        "dark": {
+          "gx_accent": {
+            "h": 40,
+            "s": 75,
+            "l": 61
+          },
+          "gx_secondary_base": {
+            "h": 222,
+            "s": 28,
+            "l": 7
+          }
+        },
+        "light": {
+          "gx_accent": {
+            "h": 35,
+            "s": 89,
+            "l": 52
+          },
+          "gx_secondary_base": {
+            "h": 210,
+            "s": 17,
+            "l": 98
+          }
+        }
+      }
+    },
+    "schema_version": 1
+  },
+  "version": "1.0"
+}

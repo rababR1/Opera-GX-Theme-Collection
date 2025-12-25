@@ -89,7 +89,7 @@
       "wallpaper": {
         "dark": {
           "image": "wallpaper/dark.png",
-          "text_color": "#FFFFFF",
+          "text_color": "#ffffff",
           "text_shadow": "#666666"
         },
         "light": {

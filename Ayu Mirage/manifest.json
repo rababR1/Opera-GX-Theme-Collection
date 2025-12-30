@@ -1,6 +1,6 @@
 {
-  "name": "Ayu Dark",
-  "description": "A theme based on the popular VS Code color scheme created by 'teabyii'.",
+  "name": "Ayu Dark - Mirage",
+  "description": "A theme based on the popular VS Code color scheme created by 'teabyii'. This is the Mirage variant of Ayu Dark.",
   "developer": {
     "name": "TG101"
   },
@@ -15,13 +15,13 @@
         "dark": {
           "gx_accent": {
             "h": 40,
-            "s": 75,
-            "l": 61
+            "s": 100,
+            "l": 70
           },
           "gx_secondary_base": {
             "h": 222,
-            "s": 28,
-            "l": 7
+            "s": 22,
+            "l": 15
           }
         },
         "light": {

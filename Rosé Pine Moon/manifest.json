@@ -156,6 +156,20 @@
             "text_color": "#575279",
             "text_shadow": "#797593"
           }
+        },
+        {
+          "id": "wallpaper_6",
+          "name": "Rosé Pine 6",
+          "dark": {
+            "image": "wallpaper/dark6.png",
+            "text_color": "#e0def4",
+            "text_shadow": "#908caa"
+          },
+          "light": {
+            "image": "wallpaper/light3.png",
+            "text_color": "#575279",
+            "text_shadow": "#797593"
+          }
         }
       ]
     },

@@ -89,7 +89,7 @@
       "wallpaper": [
         {
           "id": "wallpaper_1",
-          "name": "Rosé Pine 1",
+          "name": "Leafy",
           "dark": {
             "image": "wallpaper/dark1.png",
             "text_color": "#e0def4",
@@ -103,7 +103,7 @@
         },
         {
           "id": "wallpaper_2",
-          "name": "Rosé Pine 2",
+          "name": "Maze",
           "dark": {
             "image": "wallpaper/dark2.png",
             "text_color": "#e0def4",
@@ -117,7 +117,7 @@
         },
         {
           "id": "wallpaper_3",
-          "name": "Rosé Pine 3",
+          "name": "Shape",
           "dark": {
             "image": "wallpaper/dark3.png",
             "text_color": "#e0def4",
@@ -131,7 +131,7 @@
         },
         {
           "id": "wallpaper_4",
-          "name": "Rosé Pine 4",
+          "name": "Contour Line",
           "dark": {
             "image": "wallpaper/dark4.png",
             "text_color": "#e0def4",
@@ -145,7 +145,7 @@
         },
         {
           "id": "wallpaper_5",
-          "name": "Rosé Pine 5",
+          "name": "Noise Line",
           "dark": {
             "image": "wallpaper/dark5.png",
             "text_color": "#e0def4",
@@ -161,5 +161,5 @@
     },
     "schema_version": 1
   },
-  "version": "1.0"
+  "version": "1.0.2"
 }

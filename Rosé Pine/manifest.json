@@ -75,27 +75,33 @@
         },
         "light": {
           "gx_accent": {
-            "h": 213,
-            "s": 32,
-            "l": 52
+            "h": 3,
+            "s": 53,
+            "l": 67
           },
           "gx_secondary_base": {
-            "h": 227,
-            "s": 12,
-            "l": 86
+            "h": 32,
+            "s": 57,
+            "l": 95
           }
         }
       },
       "wallpaper": {
         "dark": {
-          "image": "wallpaper/dark.png",
-          "text_color": "#7982a9",
-          "text_shadow": "#414868"
+          "image": [
+            "wallpaper/dark1.png",
+            "wallpaper/dark2.png",
+            "wallpaper/dark3.png"
+          ],
+          "text_color": "#e0def4",
+          "text_shadow": "#908caa"
         },
         "light": {
-          "image": "wallpaper/light.png",
-          "text_color": "#343b58",
-          "text_shadow": "#343b58"
+          "image": [
+            "wallpaper/light1.png"
+          ],
+          "text_color": "#575279",
+          "text_shadow": "#797593"
         }
       }
     },

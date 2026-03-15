@@ -86,24 +86,78 @@
           }
         }
       },
-      "wallpaper": {
-        "dark": {
-          "image": [
-            "wallpaper/dark1.png",
-            "wallpaper/dark2.png",
-            "wallpaper/dark3.png"
-          ],
-          "text_color": "#e0def4",
-          "text_shadow": "#908caa"
+      "wallpaper": [
+        {
+          "id": "wallpaper_1",
+          "name": "Rosé Pine 1",
+          "dark": {
+            "image": "wallpaper/dark1.png",
+            "text_color": "#e0def4",
+            "text_shadow": "#908caa"
+          },
+          "light": {
+            "image": "wallpaper/light1.png",
+            "text_color": "#575279",
+            "text_shadow": "#797593"
+          }
         },
-        "light": {
-          "image": [
-            "wallpaper/light1.png"
-          ],
-          "text_color": "#575279",
-          "text_shadow": "#797593"
+        {
+          "id": "wallpaper_2",
+          "name": "Rosé Pine 2",
+          "dark": {
+            "image": "wallpaper/dark2.png",
+            "text_color": "#e0def4",
+            "text_shadow": "#908caa"
+          },
+          "light": {
+            "image": "wallpaper/light1.png",
+            "text_color": "#575279",
+            "text_shadow": "#797593"
+          }
+        },
+        {
+          "id": "wallpaper_3",
+          "name": "Rosé Pine 3",
+          "dark": {
+            "image": "wallpaper/dark3.png",
+            "text_color": "#e0def4",
+            "text_shadow": "#908caa"
+          },
+          "light": {
+            "image": "wallpaper/light1.png",
+            "text_color": "#575279",
+            "text_shadow": "#797593"
+          }
+        },
+        {
+          "id": "wallpaper_4",
+          "name": "Rosé Pine 4",
+          "dark": {
+            "image": "wallpaper/dark4.png",
+            "text_color": "#e0def4",
+            "text_shadow": "#908caa"
+          },
+          "light": {
+            "image": "wallpaper/light2.png",
+            "text_color": "#575279",
+            "text_shadow": "#797593"
+          }
+        },
+        {
+          "id": "wallpaper_5",
+          "name": "Rosé Pine 5",
+          "dark": {
+            "image": "wallpaper/dark5.png",
+            "text_color": "#e0def4",
+            "text_shadow": "#908caa"
+          },
+          "light": {
+            "image": "wallpaper/light2.png",
+            "text_color": "#575279",
+            "text_shadow": "#797593"
+          }
         }
-      }
+      ]
     },
     "schema_version": 1
   },

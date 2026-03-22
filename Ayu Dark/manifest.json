@@ -1,6 +1,6 @@
 {
   "name": "Ayu Dark",
-  "description": "A theme based on the popular VS Code color scheme created by 'teabyii'.",
+  "description": "A theme based on the popular VS Code color scheme created by 'teabyii'. Includes both the Dark and Mirage variants.",
   "developer": {
     "name": "TG101"
   },
@@ -11,34 +11,66 @@
   "mod": {
     "license": "license.txt",
     "payload": {
-      "theme": {
-        "dark": {
-          "gx_accent": {
-            "h": 40,
-            "s": 75,
-            "l": 61
+      "theme": [
+        {
+          "id": "ayu_dark",
+          "name": "Ayu Dark",
+          "dark": {
+            "gx_accent": {
+              "h": 40,
+              "s": 75,
+              "l": 61
+            },
+            "gx_secondary_base": {
+              "h": 222,
+              "s": 28,
+              "l": 7
+            }
           },
-          "gx_secondary_base": {
-            "h": 222,
-            "s": 28,
-            "l": 7
+          "light": {
+            "gx_accent": {
+              "h": 35,
+              "s": 89,
+              "l": 52
+            },
+            "gx_secondary_base": {
+              "h": 210,
+              "s": 17,
+              "l": 98
+            }
           }
         },
-        "light": {
-          "gx_accent": {
-            "h": 35,
-            "s": 89,
-            "l": 52
+        {
+          "id": "ayu_mirage",
+          "name": "Ayu Mirage",
+          "dark": {
+            "gx_accent": {
+              "h": 40,
+              "s": 100,
+              "l": 70
+            },
+            "gx_secondary_base": {
+              "h": 222,
+              "s": 22,
+              "l": 15
+            }
           },
-          "gx_secondary_base": {
-            "h": 210,
-            "s": 17,
-            "l": 98
+          "light": {
+            "gx_accent": {
+              "h": 35,
+              "s": 89,
+              "l": 52
+            },
+            "gx_secondary_base": {
+              "h": 210,
+              "s": 17,
+              "l": 98
+            }
           }
         }
-      }
+      ]
     },
-    "schema_version": 1
+    "schema_version": 2
   },
-  "version": "1.0"
+  "version": "1.0.1"
 }

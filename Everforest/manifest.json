@@ -50,47 +50,47 @@
           "items": [
             {
               "type": "POINTER",
-              "path": "cursors_windows/pointer.cur"
+              "path": "cursors/dark/pointer.cur"
             },
             {
               "type": "HELP",
-              "path": "cursors_windows/help.cur"
+              "path": "cursors/dark/help.cur"
             },
             {
               "type": "PROGRESS",
-              "path": "cursors_windows/progress.ani"
+              "path": "cursors/dark/progress.ani"
             },
             {
               "type": "WAIT",
-              "path": "cursors_windows/wait.ani"
+              "path": "cursors/dark/wait.ani"
             },
             {
               "type": "I_BEAM",
-              "path": "cursors_windows/text.cur"
+              "path": "cursors/dark/text.cur"
             },
             {
               "type": "HAND",
-              "path": "cursors_windows/hand.cur"
+              "path": "cursors/dark/hand.cur"
             },
             {
               "type": "NOT_ALLOWED",
-              "path": "cursors_windows/not_allowed.cur"
+              "path": "cursors/dark/not_allowed.cur"
             },
             {
               "type": "EAST_WEST_RESIZE",
-              "path": "cursors_windows/east_west_resize.cur"
+              "path": "cursors/dark/east_west_resize.cur"
             },
             {
               "type": "NORTH_SOUTH_RESIZE",
-              "path": "cursors_windows/north_south_resize.cur"
+              "path": "cursors/dark/north_south_resize.cur"
             },
             {
               "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
-              "path": "cursors_windows/north_west_south_east_resize.cur"
+              "path": "cursors/dark/north_west_south_east_resize.cur"
             },
             {
               "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
-              "path": "cursors_windows/north_east_south_west_resize.cur"
+              "path": "cursors/dark/north_east_south_west_resize.cur"
             }
           ]
         },
@@ -101,47 +101,47 @@
           "items": [
             {
               "type": "POINTER",
-              "path": "cursors_windows_light/pointer.cur"
+              "path": "cursors/light/pointer.cur"
             },
             {
               "type": "HELP",
-              "path": "cursors_windows_light/help.cur"
+              "path": "cursors/light/help.cur"
             },
             {
               "type": "PROGRESS",
-              "path": "cursors_windows_light/progress.ani"
+              "path": "cursors/light/progress.ani"
             },
             {
               "type": "WAIT",
-              "path": "cursors_windows_light/wait.ani"
+              "path": "cursors/light/wait.ani"
             },
             {
               "type": "I_BEAM",
-              "path": "cursors_windows_light/text.cur"
+              "path": "cursors/light/text.cur"
             },
             {
               "type": "HAND",
-              "path": "cursors_windows_light/hand.cur"
+              "path": "cursors/light/hand.cur"
             },
             {
               "type": "NOT_ALLOWED",
-              "path": "cursors_windows_light/not_allowed.cur"
+              "path": "cursors/light/not_allowed.cur"
             },
             {
               "type": "EAST_WEST_RESIZE",
-              "path": "cursors_windows_light/east_west_resize.cur"
+              "path": "cursors/light/east_west_resize.cur"
             },
             {
               "type": "NORTH_SOUTH_RESIZE",
-              "path": "cursors_windows_light/north_south_resize.cur"
+              "path": "cursors/light/north_south_resize.cur"
             },
             {
               "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
-              "path": "cursors_windows_light/north_west_south_east_resize.cur"
+              "path": "cursors/light/north_west_south_east_resize.cur"
             },
             {
               "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
-              "path": "cursors_windows_light/north_east_south_west_resize.cur"
+              "path": "cursors/light/north_east_south_west_resize.cur"
             }
           ]
         }

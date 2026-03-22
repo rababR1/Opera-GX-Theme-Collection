@@ -12,6 +12,7 @@ XCURSOR_HEADER = struct.Struct("<4sIII")
 XCURSOR_TOC = struct.Struct("<III")
 XCURSOR_IMAGE = struct.Struct("<IIIIIIIII")
 XCURSOR_IMAGE_TYPE = 0xFFFD0002
+SUPPORTED_XCURSOR_VERSIONS = {0x1, 0x10000}
 
 CUR_HEADER = struct.Struct("<HHH")
 CUR_ENTRY = struct.Struct("<BBBBHHII")
@@ -41,7 +42,7 @@ def parse_xcursor(blob: bytes) -> list[CursorFrame]:
     magic, header_size, version, toc_size = XCURSOR_HEADER.unpack_from(blob, 0)
     if magic != XCURSOR_MAGIC:
         raise ValueError("Not an Xcursor file")
-    if version != 0x1:
+    if version not in SUPPORTED_XCURSOR_VERSIONS:
         raise ValueError(f"Unsupported Xcursor version: {version}")
     if header_size != XCURSOR_HEADER.size:
         raise ValueError(f"Unexpected Xcursor header size: {header_size}")

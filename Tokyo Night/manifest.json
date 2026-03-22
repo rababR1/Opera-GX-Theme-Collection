@@ -210,6 +210,65 @@
               "path": "cursors/light/12_diagonal_resize_2.cur"
             }
           ]
+        },
+        {
+          "id": "cursors_storm",
+          "name": "Tokyo Night Storm",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors/storm/01_normal_select.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors/storm/02_help_select.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors/storm/03_working_in_background.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors/storm/04_busy.ani"
+            },
+            {
+              "type": "CROSS",
+              "path": "cursors/storm/05_precision_select.cur"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors/storm/06_text_select.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors/storm/15_link_select.cur"
+            },
+            {
+              "type": "MOVE",
+              "path": "cursors/storm/13_move.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors/storm/08_unavailable.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors/storm/10_horizontal_resize.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors/storm/09_vertical_resize.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors/storm/11_diagonal_resize_1.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors/storm/12_diagonal_resize_2.cur"
+            }
+          ]
         }
       ],
       "page_styles": [
@@ -331,5 +390,5 @@
     },
     "schema_version": 2
   },
-  "version": "1.0.6"
+  "version": "1.0.7"
 }

@@ -182,6 +182,7 @@
       ],
       "page_styles": [
         {
+          "id": "page_style_0",
           "css": ["webmodding/opera.css"],
           "matches": ["https://*.opera.com/*"]
         }
@@ -359,5 +360,5 @@
     },
     "schema_version": 2
   },
-  "version": "1.0.5"
+  "version": "1.0.6"
 }

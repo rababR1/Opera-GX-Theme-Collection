@@ -1,6 +1,6 @@
 {
   "name": "Rosé Pine",
-  "description": "Ports the popular VS Code and Nvim theme, Rosé Pine, to Opera GX.",
+  "description": "Ports the popular VS Code and Nvim theme, Rosé Pine, to Opera GX. Includes both the original theme and the Moon flavour(s)",
   "developer": {
     "name": "TG101"
   },
@@ -60,32 +60,64 @@
           "path": "shader/wave.txt"
         }
       },
-      "theme": {
-        "dark": {
-          "gx_accent": {
-            "h": 2,
-            "s": 55,
-            "l": 83
+      "theme": [
+        {
+          "id": "rose_pine",
+          "name": "Rosé Pine",
+          "dark": {
+            "gx_accent": {
+              "h": 2,
+              "s": 55,
+              "l": 83
+            },
+            "gx_secondary_base": {
+              "h": 249,
+              "s": 22,
+              "l": 12
+            }
           },
-          "gx_secondary_base": {
-            "h": 249,
-            "s": 22,
-            "l": 12
+          "light": {
+            "gx_accent": {
+              "h": 3,
+              "s": 53,
+              "l": 67
+            },
+            "gx_secondary_base": {
+              "h": 32,
+              "s": 57,
+              "l": 95
+            }
           }
         },
-        "light": {
-          "gx_accent": {
-            "h": 3,
-            "s": 53,
-            "l": 67
+        {
+          "id": "rose_pine_moon",
+          "name": "Rosé Pine Moon",
+          "dark": {
+            "gx_accent": {
+              "h": 2,
+              "s": 66,
+              "l": 75
+            },
+            "gx_secondary_base": {
+              "h": 246,
+              "s": 23,
+              "l": 17
+            }
           },
-          "gx_secondary_base": {
-            "h": 32,
-            "s": 57,
-            "l": 95
+          "light": {
+            "gx_accent": {
+              "h": 3,
+              "s": 53,
+              "l": 67
+            },
+            "gx_secondary_base": {
+              "h": 32,
+              "s": 57,
+              "l": 95
+            }
           }
         }
-      },
+      ],
       "wallpaper": [
         {
           "id": "wallpaper_1",
@@ -156,10 +188,38 @@
             "text_color": "#575279",
             "text_shadow": "#797593"
           }
+        },
+        {
+          "id": "wallpaper_6",
+          "name": "Leafy Moon",
+          "dark": {
+            "image": "wallpaper/moon_dark1.png",
+            "text_color": "#e0def4",
+            "text_shadow": "#908caa"
+          },
+          "light": {
+            "image": "wallpaper/light1.png",
+            "text_color": "#575279",
+            "text_shadow": "#797593"
+          }
+        },
+        {
+          "id": "wallpaper_7",
+          "name": "Squares",
+          "dark": {
+            "image": "wallpaper/moon_dark6.png",
+            "text_color": "#e0def4",
+            "text_shadow": "#908caa"
+          },
+          "light": {
+            "image": "wallpaper/moon_light3.png",
+            "text_color": "#575279",
+            "text_shadow": "#797593"
+          }
         }
       ]
     },
-    "schema_version": 1
+    "schema_version": 2
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

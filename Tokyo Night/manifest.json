@@ -60,46 +60,96 @@
           "path": "shader/wave.txt"
         }
       },
-      "theme": {
-        "dark": {
-          "gx_accent": {
-            "h": 223,
-            "s":45,
-            "l": 44
+      "theme": [
+        {
+          "id": "tokyo_night",
+          "name": "Tokyo Night",
+          "dark": {
+            "gx_accent": {
+              "h": 223,
+              "s": 45,
+              "l": 44
+            },
+            "gx_secondary_base": {
+              "h": 240,
+              "s": 15,
+              "l": 10
+            }
           },
-          "gx_secondary_base": {
-            "h": 240,
-            "s": 15,
-            "l": 10
+          "light": {
+            "gx_accent": {
+              "h": 213,
+              "s": 32,
+              "l": 52
+            },
+            "gx_secondary_base": {
+              "h": 227,
+              "s": 12,
+              "l": 86
+            }
           }
         },
-        "light": {
-          "gx_accent": {
-            "h": 213,
-            "s": 32,
-            "l": 52
+        {
+          "id": "tokyo_night_storm",
+          "name": "Tokyo Night Storm",
+          "dark": {
+            "gx_accent": {
+              "h": 218,
+              "s": 61,
+              "l": 41
+            },
+            "gx_secondary_base": {
+              "h": 229,
+              "s": 26,
+              "l": 16
+            }
           },
-          "gx_secondary_base": {
-            "h": 227,
-            "s": 12,
-            "l": 86
+          "light": {
+            "gx_accent": {
+              "h": 213,
+              "s": 32,
+              "l": 52
+            },
+            "gx_secondary_base": {
+              "h": 227,
+              "s": 12,
+              "l": 86
+            }
           }
         }
-      },
-      "wallpaper": {
-        "dark": {
-          "image": "wallpaper/dark.png",
-          "text_color": "#787c99",
-          "text_shadow": "#363b54"
+      ],
+      "wallpaper": [
+        {
+          "id": "wallpaper_1",
+          "name": "Tokyo Night",
+          "dark": {
+            "image": "wallpaper/dark.png",
+            "text_color": "#787c99",
+            "text_shadow": "#363b54"
+          },
+          "light": {
+            "image": "wallpaper/light.png",
+            "text_color": "#343b58",
+            "text_shadow": "#343b58"
+          }
         },
-        "light": {
-          "image": "wallpaper/light.png",
-          "text_color": "#343b58",
-          "text_shadow": "#343b58"
+        {
+          "id": "wallpaper_2",
+          "name": "Tokyo Night Storm",
+          "dark": {
+            "image": "wallpaper/storm_dark.png",
+            "text_color": "#7982a9",
+            "text_shadow": "#414868"
+          },
+          "light": {
+            "image": "wallpaper/light.png",
+            "text_color": "#343b58",
+            "text_shadow": "#343b58"
+          }
         }
-      }
+      ]
     },
-    "schema_version": 1
+    "schema_version": 2
   },
-  "version": "1.0"
+  "version": "1.0.1"
 }

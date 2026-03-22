@@ -42,6 +42,126 @@
         ],
         "TYPING_SPACE": ["keyboard/space.wav"]
       },
+      "cursors": [
+        {
+          "id": "cursors_dark",
+          "name": "Rosé Pine Dark",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors/dark/Default.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors/dark/Help.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors/dark/Busy.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors/dark/Work.ani"
+            },
+            {
+              "type": "CROSS",
+              "path": "cursors/dark/Cross.cur"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors/dark/IBeam.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors/dark/Link.cur"
+            },
+            {
+              "type": "MOVE",
+              "path": "cursors/dark/Move.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors/dark/Unavailiable.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors/dark/Horizontal.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors/dark/Vertical.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors/dark/Diagonal_1.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors/dark/Diagonal_2.cur"
+            }
+          ]
+        },
+        {
+          "id": "cursors_light",
+          "name": "Rosé Pine Light",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors/light/Default.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors/light/Help.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors/light/Busy.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors/light/Work.ani"
+            },
+            {
+              "type": "CROSS",
+              "path": "cursors/light/Cross.cur"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors/light/IBeam.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors/light/Link.cur"
+            },
+            {
+              "type": "MOVE",
+              "path": "cursors/light/Move.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors/light/Unavailiable.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors/light/Horizontal.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors/light/Vertical.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors/light/Diagonal_1.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors/light/Diagonal_2.cur"
+            }
+          ]
+        }
+      ],
       "page_styles": [
         {
           "css": ["webmodding/opera.css"],
@@ -221,5 +341,5 @@
     },
     "schema_version": 2
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

@@ -42,6 +42,59 @@
         ],
         "TYPING_SPACE": ["keyboard/space.wav"]
       },
+      "cursors": [
+        {
+          "id": "cursors_everforest",
+          "name": "Everforest",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors_windows/pointer.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors_windows/help.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors_windows/progress.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors_windows/wait.ani"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors_windows/text.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors_windows/hand.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors_windows/not_allowed.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors_windows/east_west_resize.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors_windows/north_south_resize.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors_windows/north_west_south_east_resize.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors_windows/north_east_south_west_resize.cur"
+            }
+          ]
+        }
+      ],
       "page_styles": [
         {
           "css": ["webmodding/opera.css"],
@@ -99,7 +152,7 @@
         }
       }
     },
-    "schema_version": 1
+    "schema_version": 2
   },
-  "version": "1.0"
+  "version": "1.0.1"
 }

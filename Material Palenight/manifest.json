@@ -164,6 +164,7 @@
       ],
       "page_styles": [
         {
+          "name": "Material Palenight",
           "css": ["webmodding/opera.css"],
           "matches": ["https://*.opera.com/*"]
         }

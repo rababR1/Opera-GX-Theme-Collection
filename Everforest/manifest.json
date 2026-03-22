@@ -148,6 +148,7 @@
       ],
       "page_styles": [
         {
+          "name": "Everforest",
           "css": ["webmodding/opera.css"],
           "matches": ["https://*.opera.com/*"]
         }

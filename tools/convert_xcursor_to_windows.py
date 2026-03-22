@@ -1,4 +1,5 @@
 import struct
+import argparse
 from dataclasses import dataclass
 from io import BytesIO
 from pathlib import Path
@@ -173,8 +174,13 @@ def convert_file(source: Path, target: Path) -> None:
 
 
 def main() -> None:
-    source_dir = Path("Everforest/cursors")
-    target_dir = Path("Everforest/cursors_windows")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--source", default="Everforest/cursors")
+    parser.add_argument("--output", default="Everforest/cursors_windows")
+    args = parser.parse_args()
+
+    source_dir = Path(args.source)
+    target_dir = Path(args.output)
     target_dir.mkdir(exist_ok=True)
 
     files_to_convert = {

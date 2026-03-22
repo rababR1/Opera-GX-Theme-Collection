@@ -93,6 +93,57 @@
               "path": "cursors_windows/north_east_south_west_resize.cur"
             }
           ]
+        },
+        {
+          "id": "cursors_everforest_light",
+          "name": "Everforest Light",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors_windows_light/pointer.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors_windows_light/help.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors_windows_light/progress.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors_windows_light/wait.ani"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors_windows_light/text.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors_windows_light/hand.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors_windows_light/not_allowed.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors_windows_light/east_west_resize.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors_windows_light/north_south_resize.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors_windows_light/north_west_south_east_resize.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors_windows_light/north_east_south_west_resize.cur"
+            }
+          ]
         }
       ],
       "page_styles": [
@@ -154,5 +205,5 @@
     },
     "schema_version": 2
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

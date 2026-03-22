@@ -5,7 +5,7 @@
     "name": "TG101"
   },
   "icons": {
-    "512": "icon_512.png"
+    "512": "wallpaper/dark.png"
   },
   "manifest_version": 3,
   "mod": {
@@ -93,7 +93,7 @@
           "text_shadow": "#979FAD"
         },
         "light": {
-          "image": "wallpaper/light.png",
+          "image": "wallpaper/dark.png",
           "text_color": "#232324",
           "text_shadow": "#7f7f7f"
         }

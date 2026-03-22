@@ -12,78 +12,216 @@
     "license": "license.txt",
     "payload": {
       "background_music": [
-        "music/track_1.mp3",
-        "music/track_2.mp3",
-        "music/track_3.mp3",
-        "music/track_4.mp3"
+        {
+          "id": "music_0",
+          "name": "Gruvbox Authentic",
+          "tracks": [
+            "music/track_1.mp3",
+            "music/track_2.mp3",
+            "music/track_3.mp3",
+            "music/track_4.mp3"
+          ]
+        }
       ],
-      "browser_sounds": {
-        "CLICK": [
-          "sound/click.mp3"
-        ],
-        "FEATURE_SWITCH_OFF": [
-          "sound/feature_switch_off.mp3"
-        ],
-        "FEATURE_SWITCH_ON": [
-          "sound/feature_switch_on.mp3"
-        ],
-        "HOVER": [
-          "sound/hover.mp3"
-        ],
-        "HOVER_UP": [
-          "sound/hover.mp3"
-        ],
-        "IMPORTANT_CLICK": [
-          "sound/important_click.mp3"
-        ],
-        "LEVEL_UPGRADE": [
-          "sound/level_upgrade.mp3"
-        ],
-        "LIMITER_OFF": [
-          "sound/limiter_off.mp3"
-        ],
-        "LIMITER_ON": [
-          "sound/limiter_on.mp3"
-        ],
-        "SWITCH_TOGGLE": [
-          "sound/switch.mp3"
-        ],
-        "TAB_CLOSE": [
-          "sound/close_tab.mp3"
-        ],
-        "TAB_INSERT": [
-          "sound/new_tab.mp3"
-        ],
-        "TAB_SLASH": [
-          "sound/tab_slash.mp3"
-        ]
-      },
-      "keyboard_sounds": {
-        "TYPING_BACKSPACE": [
-          "keyboard/backspace.wav"
-        ],
-        "TYPING_ENTER": [
-          "keyboard/enter.wav"
-        ],
-        "TYPING_LETTER": [
-          "keyboard/letter_1.wav",
-          "keyboard/letter_2.wav",
-          "keyboard/letter_3.wav"
-        ],
-        "TYPING_SPACE": [
-          "keyboard/space.wav"
-        ]
-      },
+      "browser_sounds": [
+        {
+          "id": "browser_sounds_0",
+          "name": "Gruvbox Authentic",
+          "sounds": {
+            "CLICK": [
+              "sound/click.mp3"
+            ],
+            "FEATURE_SWITCH_OFF": [
+              "sound/feature_switch_off.mp3"
+            ],
+            "FEATURE_SWITCH_ON": [
+              "sound/feature_switch_on.mp3"
+            ],
+            "HOVER": [
+              "sound/hover.mp3"
+            ],
+            "HOVER_UP": [
+              "sound/hover.mp3"
+            ],
+            "IMPORTANT_CLICK": [
+              "sound/important_click.mp3"
+            ],
+            "LEVEL_UPGRADE": [
+              "sound/level_upgrade.mp3"
+            ],
+            "LIMITER_OFF": [
+              "sound/limiter_off.mp3"
+            ],
+            "LIMITER_ON": [
+              "sound/limiter_on.mp3"
+            ],
+            "SWITCH_TOGGLE": [
+              "sound/switch.mp3"
+            ],
+            "TAB_CLOSE": [
+              "sound/close_tab.mp3"
+            ],
+            "TAB_INSERT": [
+              "sound/new_tab.mp3"
+            ],
+            "TAB_SLASH": [
+              "sound/tab_slash.mp3"
+            ]
+          }
+        }
+      ],
+      "keyboard_sounds": [
+        {
+          "id": "keyboard_sounds_0",
+          "name": "Gruvbox Authentic",
+          "sounds": {
+            "TYPING_BACKSPACE": [
+              "keyboard/backspace.wav"
+            ],
+            "TYPING_ENTER": [
+              "keyboard/enter.wav"
+            ],
+            "TYPING_LETTER": [
+              "keyboard/letter_1.wav",
+              "keyboard/letter_2.wav",
+              "keyboard/letter_3.wav"
+            ],
+            "TYPING_SPACE": [
+              "keyboard/space.wav"
+            ]
+          }
+        }
+      ],
+      "cursors": [
+        {
+          "id": "cursors_dark",
+          "name": "Gruvbox Authentic Dark",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors/dark/Normal.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors/dark/Help.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors/dark/Busy.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors/dark/Working.ani"
+            },
+            {
+              "type": "CROSS",
+              "path": "cursors/dark/Precision.cur"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors/dark/Text.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors/dark/Link.cur"
+            },
+            {
+              "type": "MOVE",
+              "path": "cursors/dark/Move.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors/dark/Unavailable.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors/dark/Horizontal Resize.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors/dark/Vertical Resize.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors/dark/Diagonal Resize 1.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors/dark/Diagonal Resize 2.cur"
+            }
+          ]
+        },
+        {
+          "id": "cursors_light",
+          "name": "Gruvbox Authentic Light",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors/light/Normal.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors/light/Help.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors/light/Busy.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors/light/Working.ani"
+            },
+            {
+              "type": "CROSS",
+              "path": "cursors/light/Precision.cur"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors/light/Text.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors/light/Link.cur"
+            },
+            {
+              "type": "MOVE",
+              "path": "cursors/light/Move.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors/light/Unavailable.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors/light/Horizontal Resize.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors/light/Vertical Resize.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors/light/Diagonal Resize 1.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors/light/Diagonal Resize 2.cur"
+            }
+          ]
+        }
+      ],
       "page_styles": [
         {
+          "id": "page_style_0",
+          "name": "Gruvbox Authentic",
           "css": [
             "webmodding/opera.css"
           ],
           "matches": [
             "https://*.opera.com/*"
-          ],
-          "id": "page_style_0",
-          "name": "Gruvbox Authentic"
+          ]
         }
       ],
       "shaders": [
@@ -102,46 +240,54 @@
           }
         }
       ],
-      "theme": {
-        "dark": {
-          "gx_accent": {
-            "h": 104,
-            "s": 35,
-            "l": 62
+      "theme": [
+        {
+          "id": "gruvbox_authentic",
+          "name": "Gruvbox Authentic",
+          "dark": {
+            "gx_accent": {
+              "h": 104,
+              "s": 35,
+              "l": 62
+            },
+            "gx_secondary_base": {
+              "h": 0,
+              "s": 0,
+              "l": 16
+            }
           },
-          "gx_secondary_base": {
-            "h": 0,
-            "s": 0,
-            "l": 16
-          }
-        },
-        "light": {
-          "gx_accent": {
-            "h": 213,
-            "s": 32,
-            "l": 52
-          },
-          "gx_secondary_base": {
-            "h": 48,
-            "s": 87,
-            "l": 88
+          "light": {
+            "gx_accent": {
+              "h": 213,
+              "s": 32,
+              "l": 52
+            },
+            "gx_secondary_base": {
+              "h": 48,
+              "s": 87,
+              "l": 88
+            }
           }
         }
-      },
-      "wallpaper": {
-        "dark": {
-          "image": "wallpaper/dark.png",
-          "text_color": "#ebdbb2",
-          "text_shadow": "#928374"
-        },
-        "light": {
-          "image": "wallpaper/light.png",
-          "text_color": "#3c3836",
-          "text_shadow": "#3c3836"
+      ],
+      "wallpaper": [
+        {
+          "id": "wallpaper_1",
+          "name": "Gruvbox Authentic",
+          "dark": {
+            "image": "wallpaper/dark.png",
+            "text_color": "#ebdbb2",
+            "text_shadow": "#928374"
+          },
+          "light": {
+            "image": "wallpaper/light.png",
+            "text_color": "#3c3836",
+            "text_shadow": "#3c3836"
+          }
         }
-      }
+      ]
     },
-    "schema_version": 1
+    "schema_version": 2
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

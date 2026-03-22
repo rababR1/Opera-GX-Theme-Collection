@@ -21,6 +21,20 @@ ANI_CHUNK = struct.Struct("<4sI")
 ANI_HEADER = struct.Struct("<IIIIIIIII")
 ANI_U32 = struct.Struct("<I")
 
+FILES_TO_CONVERT = {
+    "pointer.cur": ("left_ptr",),
+    "help.cur": ("help",),
+    "progress.ani": ("progress",),
+    "wait.ani": ("wait",),
+    "text.cur": ("text",),
+    "hand.cur": ("hand2", "openhand"),
+    "not_allowed.cur": ("not-allowed",),
+    "east_west_resize.cur": ("size_hor",),
+    "north_south_resize.cur": ("size_ver",),
+    "north_east_south_west_resize.cur": ("size_fdiag",),
+    "north_west_south_east_resize.cur": ("size_bdiag",),
+}
+
 
 @dataclass
 class CursorImage:
@@ -174,35 +188,37 @@ def convert_file(source: Path, target: Path) -> None:
         target.write_bytes(encode_ani(frames))
 
 
+def resolve_source(source_dir: Path, candidates: tuple[str, ...]) -> Path:
+    for candidate in candidates:
+        source = source_dir / candidate
+        if source.exists():
+            return source
+    raise FileNotFoundError(source_dir / candidates[0])
+
+
+def convert_directory(source_dir: Path, target_dir: Path) -> None:
+    target_dir.mkdir(parents=True, exist_ok=True)
+    for target_name, candidates in FILES_TO_CONVERT.items():
+        convert_file(resolve_source(source_dir, candidates), target_dir / target_name)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", default="Everforest/cursors")
-    parser.add_argument("--output", default="Everforest/cursors_windows")
+    parser.add_argument("--source", default="Everforest/linuxCursors")
+    parser.add_argument("--output", default="Everforest/cursors")
     args = parser.parse_args()
 
     source_dir = Path(args.source)
     target_dir = Path(args.output)
-    target_dir.mkdir(exist_ok=True)
-
-    files_to_convert = {
-        "left_ptr": "pointer.cur",
-        "help": "help.cur",
-        "progress": "progress.ani",
-        "wait": "wait.ani",
-        "text": "text.cur",
-        "openhand": "hand.cur",
-        "not-allowed": "not_allowed.cur",
-        "size_hor": "east_west_resize.cur",
-        "size_ver": "north_south_resize.cur",
-        "size_fdiag": "north_east_south_west_resize.cur",
-        "size_bdiag": "north_west_south_east_resize.cur",
-    }
-
-    for source_name, target_name in files_to_convert.items():
-        source = source_dir / source_name
-        if not source.exists():
-            raise FileNotFoundError(source)
-        convert_file(source, target_dir / target_name)
+    dark_dir = source_dir / "dark"
+    light_dir = source_dir / "light"
+    if dark_dir.is_dir() or light_dir.is_dir():
+        if dark_dir.is_dir():
+            convert_directory(dark_dir, target_dir / "dark")
+        if light_dir.is_dir():
+            convert_directory(light_dir, target_dir / "light")
+    else:
+        convert_directory(source_dir, target_dir)
 
 
 if __name__ == "__main__":

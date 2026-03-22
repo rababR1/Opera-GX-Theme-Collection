@@ -27,7 +27,7 @@ FILES_TO_CONVERT = {
     "progress.ani": ("progress",),
     "wait.ani": ("wait",),
     "text.cur": ("text",),
-    "hand.cur": ("hand2", "openhand"),
+    "link.cur": ("hand2", "openhand"),
     "not_allowed.cur": ("not-allowed",),
     "east_west_resize.cur": ("size_hor",),
     "north_south_resize.cur": ("size_ver",),

@@ -94,7 +94,7 @@
       ],
       "cursors": [
         {
-          "id": "cursors_everforest",
+          "id": "cursors_everforest_v2",
           "name": "Everforest",
           "preview": "icon_512.png",
           "items": [
@@ -120,7 +120,7 @@
             },
             {
               "type": "HAND",
-              "path": "cursors/dark/hand.cur"
+              "path": "cursors/dark/link.cur"
             },
             {
               "type": "NOT_ALLOWED",
@@ -145,7 +145,7 @@
           ]
         },
         {
-          "id": "cursors_everforest_light",
+          "id": "cursors_everforest_light_v2",
           "name": "Everforest Light",
           "preview": "icon_512.png",
           "items": [
@@ -171,7 +171,7 @@
             },
             {
               "type": "HAND",
-              "path": "cursors/light/hand.cur"
+              "path": "cursors/light/link.cur"
             },
             {
               "type": "NOT_ALLOWED",
@@ -273,5 +273,5 @@
     },
     "schema_version": 2
   },
-  "version": "1.0.5"
+  "version": "1.0.7"
 }

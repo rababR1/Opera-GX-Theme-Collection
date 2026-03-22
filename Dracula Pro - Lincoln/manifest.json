@@ -18,48 +18,90 @@
         "music/track_4.mp3"
       ],
       "browser_sounds": {
-        "CLICK": ["sound/click.mp3"],
-        "FEATURE_SWITCH_OFF": ["sound/feature_switch_off.mp3"],
-        "FEATURE_SWITCH_ON": ["sound/feature_switch_on.mp3"],
-        "HOVER": ["sound/hover.mp3"],
-        "HOVER_UP": ["sound/hover.mp3"],
-        "IMPORTANT_CLICK": ["sound/important_click.mp3"],
-        "LEVEL_UPGRADE": ["sound/level_upgrade.mp3"],
-        "LIMITER_OFF": ["sound/limiter_off.mp3"],
-        "LIMITER_ON": ["sound/limiter_on.mp3"],
-        "SWITCH_TOGGLE": ["sound/switch.mp3"],
-        "TAB_CLOSE": ["sound/close_tab.mp3"],
-        "TAB_INSERT": ["sound/new_tab.mp3"],
-        "TAB_SLASH": ["sound/tab_slash.mp3"]
+        "CLICK": [
+          "sound/click.mp3"
+        ],
+        "FEATURE_SWITCH_OFF": [
+          "sound/feature_switch_off.mp3"
+        ],
+        "FEATURE_SWITCH_ON": [
+          "sound/feature_switch_on.mp3"
+        ],
+        "HOVER": [
+          "sound/hover.mp3"
+        ],
+        "HOVER_UP": [
+          "sound/hover.mp3"
+        ],
+        "IMPORTANT_CLICK": [
+          "sound/important_click.mp3"
+        ],
+        "LEVEL_UPGRADE": [
+          "sound/level_upgrade.mp3"
+        ],
+        "LIMITER_OFF": [
+          "sound/limiter_off.mp3"
+        ],
+        "LIMITER_ON": [
+          "sound/limiter_on.mp3"
+        ],
+        "SWITCH_TOGGLE": [
+          "sound/switch.mp3"
+        ],
+        "TAB_CLOSE": [
+          "sound/close_tab.mp3"
+        ],
+        "TAB_INSERT": [
+          "sound/new_tab.mp3"
+        ],
+        "TAB_SLASH": [
+          "sound/tab_slash.mp3"
+        ]
       },
       "keyboard_sounds": {
-        "TYPING_BACKSPACE": ["keyboard/backspace.wav"],
-        "TYPING_ENTER": ["keyboard/enter.wav"],
+        "TYPING_BACKSPACE": [
+          "keyboard/backspace.wav"
+        ],
+        "TYPING_ENTER": [
+          "keyboard/enter.wav"
+        ],
         "TYPING_LETTER": [
           "keyboard/letter_1.wav",
           "keyboard/letter_2.wav",
           "keyboard/letter_3.wav"
         ],
-        "TYPING_SPACE": ["keyboard/space.wav"]
+        "TYPING_SPACE": [
+          "keyboard/space.wav"
+        ]
       },
       "page_styles": [
         {
-          "css": ["webmodding/opera.css"],
-          "matches": ["https://*.opera.com/*"]
+          "css": [
+            "webmodding/opera.css"
+          ],
+          "matches": [
+            "https://*.opera.com/*"
+          ],
+          "id": "page_style_0",
+          "name": "Dracula Pro - Lincoln"
         }
       ],
-      "shaders": {
-        "Matrix green": {
+      "shaders": [
+        {
+          "id": "shader_0",
+          "name": "Matrix green",
           "path": "shader/matrix.txt"
         },
-        "Wave": {
+        {
+          "id": "shader_1",
+          "name": "Wave",
+          "path": "shader/wave.txt",
           "animation": {
             "duration": 60,
             "steps": 3600
-          },
-          "path": "shader/wave.txt"
+          }
         }
-      },
+      ],
       "theme": {
         "dark": {
           "gx_accent": {

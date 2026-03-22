@@ -42,6 +42,126 @@
         ],
         "TYPING_SPACE": ["keyboard/space.wav"]
       },
+      "cursors": [
+        {
+          "id": "cursors_dark",
+          "name": "Nord Authentic Dark",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors/dark/Normal.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors/dark/Help.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors/dark/Busy.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors/dark/Working.ani"
+            },
+            {
+              "type": "CROSS",
+              "path": "cursors/dark/Precision.cur"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors/dark/Text.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors/dark/Link.cur"
+            },
+            {
+              "type": "MOVE",
+              "path": "cursors/dark/Move.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors/dark/Unavailable.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors/dark/Horizontal Resize.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors/dark/Vertical Resize.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors/dark/Diagonal Resize 1.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors/dark/Diagonal Resize 2.cur"
+            }
+          ]
+        },
+        {
+          "id": "cursors_light",
+          "name": "Nord Authentic Light",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors/light/Normal.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors/light/Help.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors/light/Busy.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors/light/Working.ani"
+            },
+            {
+              "type": "CROSS",
+              "path": "cursors/light/Precision.cur"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors/light/Text.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors/light/Link.cur"
+            },
+            {
+              "type": "MOVE",
+              "path": "cursors/light/Move.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors/light/Unavailable.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors/light/Horizontal Resize.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors/light/Vertical Resize.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors/light/Diagonal Resize 1.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors/light/Diagonal Resize 2.cur"
+            }
+          ]
+        }
+      ],
       "page_styles": [
         {
           "css": ["webmodding/opera.css"],
@@ -99,7 +219,7 @@
         }
       }
     },
-    "schema_version": 1
+    "schema_version": 2
   },
-  "version": "1.0"
+  "version": "1.0.1"
 }

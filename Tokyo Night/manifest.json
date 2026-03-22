@@ -42,6 +42,126 @@
         ],
         "TYPING_SPACE": ["keyboard/space.wav"]
       },
+      "cursors": [
+        {
+          "id": "cursors_dark",
+          "name": "Tokyo Night Dark",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors/dark/01_normal_select.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors/dark/02_help_select.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors/dark/03_working_in_background.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors/dark/04_busy.ani"
+            },
+            {
+              "type": "CROSS",
+              "path": "cursors/dark/05_precision_select.cur"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors/dark/06_text_select.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors/dark/15_link_select.cur"
+            },
+            {
+              "type": "MOVE",
+              "path": "cursors/dark/13_move.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors/dark/08_unavailable.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors/dark/10_horizontal_resize.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors/dark/09_vertical_resize.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors/dark/11_diagonal_resize_1.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors/dark/12_diagonal_resize_2.cur"
+            }
+          ]
+        },
+        {
+          "id": "cursors_light",
+          "name": "Tokyo Night Light",
+          "preview": "icon_512.png",
+          "items": [
+            {
+              "type": "POINTER",
+              "path": "cursors/light/01_normal_select.cur"
+            },
+            {
+              "type": "HELP",
+              "path": "cursors/light/02_help_select.cur"
+            },
+            {
+              "type": "PROGRESS",
+              "path": "cursors/light/03_working_in_background.ani"
+            },
+            {
+              "type": "WAIT",
+              "path": "cursors/light/04_busy.ani"
+            },
+            {
+              "type": "CROSS",
+              "path": "cursors/light/05_precision_select.cur"
+            },
+            {
+              "type": "I_BEAM",
+              "path": "cursors/light/06_text_select.cur"
+            },
+            {
+              "type": "HAND",
+              "path": "cursors/light/15_link_select.cur"
+            },
+            {
+              "type": "MOVE",
+              "path": "cursors/light/13_move.cur"
+            },
+            {
+              "type": "NOT_ALLOWED",
+              "path": "cursors/light/08_unavailable.cur"
+            },
+            {
+              "type": "EAST_WEST_RESIZE",
+              "path": "cursors/light/10_horizontal_resize.cur"
+            },
+            {
+              "type": "NORTH_SOUTH_RESIZE",
+              "path": "cursors/light/09_vertical_resize.cur"
+            },
+            {
+              "type": "NORTH_WEST_SOUTH_EAST_RESIZE",
+              "path": "cursors/light/11_diagonal_resize_1.cur"
+            },
+            {
+              "type": "NORTH_EAST_SOUTH_WEST_RESIZE",
+              "path": "cursors/light/12_diagonal_resize_2.cur"
+            }
+          ]
+        }
+      ],
       "page_styles": [
         {
           "css": ["webmodding/opera.css"],
@@ -151,5 +271,5 @@
     },
     "schema_version": 2
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
